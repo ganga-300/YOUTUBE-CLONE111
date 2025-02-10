@@ -20,26 +20,66 @@ nav{
     left: 0vw;
     z-index: 10;
 }
+
+.newnew{
+    color:white;
+}
+
 .submit{
-    width:32vw;
-    height:4vh;
-    border-radius: 12px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0;
-    /* height: 4vh; */
-    border-color:grey ;
+    width:36vw;
+    border-radius: 22px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0; 
+    height: 5vh;
+    border:1px solid  hsl(0, 0%, 18.82%);
+     box-shadow: none;
     background-color: #121212;
-    text-align: left;
+    text-align: left; 
+    
+    /* border-color: hsl(0, 0%, 18.82%) ; */
+
     
 }
 
+.searchButton{
+    width: 64px;
+    border: 1px solid hsl(0, 0%, 18.82%);
+    background-color: hsla(0, 0%, 100%, .08);
+    border-radius: 0 40px 40px 0;
+    height: 5vh;
+    cursor: pointer;
+}
+
 .search_icon{
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    height: 33px;
-    
+    /* border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 36px;
+    cursor: pointer;
+     */
    
 }
+
+
+
+.mic {
+    width: 45px;
+    height: 5vh; 
+    border: 1px solid hsl(0, 0%, 18.82%);
+    background-color: hsla(0, 0%, 100%, 0.08);
+    border-radius: 50%; 
+    cursor: pointer;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.micro {
+/*      */
+    color : white;
+}
+
 
 .left-most{
     display: flex;
@@ -66,11 +106,7 @@ nav{
     justify-content: center;
 
 }
-.micro{
-    margin-left: 1vw;
-    
-    border-radius: 50%;
-}
+
 .logo{
     margin-left: 1vw;
 }
@@ -136,7 +172,7 @@ li{
   font-family: 'Roboto','Arial', 'san-serif';
   
 }
-/* video-container starts form here */
+
 .videocontainer{
     display: flex;
     flex-direction: column;
